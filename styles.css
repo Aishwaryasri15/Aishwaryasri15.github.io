@@ -1,0 +1,370 @@
+/* overall start */
+body{
+    font-family: 'Poppins';
+    color:#fff;
+}
+
+.btn, .form-control{
+    font-size: 14px;
+}
+.btn{
+
+font-weight: 600;
+    
+}
+p,li,td{
+    color:#c4c8d1;
+}
+th{
+    color: #fff;
+}
+
+/* overall ends */
+/* header start*/
+#main-header{
+    background-color:#19223F;
+    border-bottom:1px solid rgba(255, 255, 255, 0.1);
+}
+#main-header img{
+height:50px;
+        
+}
+#main-header .navbar{
+padding: 15px 0;
+}
+#main-header .navbar li a{
+
+    color:#FFFDFF;
+    font-weight: 400;
+    padding: 0 20px;
+    }
+    #main-header .navbar li a:hover{
+
+        color:#FFD300;
+        font-weight: 400;
+        padding: 0 20px;
+        }
+    /* header start*/
+    #main-header .navbar li .btn{
+        height: 30px;
+        line-height: 28px;
+       
+    }
+    #main-header .navbar li .btn:hover{
+        color:#19223F;
+       
+    }
+    /* header end*/
+/* banner start */
+#banner{
+    padding: 60px 0;
+    background-color:#19223F;
+}
+#banner h4{
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+#banner p{
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+}
+.banner-bg{
+    background-image: url("banner-bg.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*banner end */
+
+/* demotraining start */
+#demotraining{
+    padding: 60px 0;
+    background-color:#16203B;
+}
+#demotraining h4{
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+#demotraining p{
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+}
+/*demotraining end */
+
+
+/* launching-soon start */
+#launching-soon{
+    /* padding: 60px 0; */
+    background-image: url("ails.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#2B3151;
+    height: 300px;
+}
+/* #launching-soon h4{
+    font-weight: 800;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+#launching-soon h2{
+    font-weight: 800;
+    font-size: 60px;
+    color: #FFD300;
+
+} */
+/*launching-soon end */
+
+
+/* trade-market-studio-course start */
+#trade-market-studio-course{
+    padding: 60px 0;
+    background-color:#19223F;
+}
+#trade-market-studio-course h4{
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+#trade-market-studio-course p{
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+}
+.day-img-block img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.month-block-img{
+    height: 300px;
+    margin-top: 25px;
+}
+#trade-market-studio-course   ul{
+    list-style: none;
+    margin: 0;
+    padding: 60px 0 0 0;
+}
+#trade-market-studio-course  i{
+    color: #FFD300;
+    font-size: 13px;
+    padding-right: 10px;
+}
+#trade-market-studio-course  ul li {
+
+    font-size: 14px;
+    padding-top: 10px;
+ 
+}
+/*trade-market-studio-course end */
+
+
+/* discord-course start */
+#discord-course{
+    padding: 60px 0;
+    background-color:#1E2B4B;
+}
+#discord-course h4{
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+#discord-course p{
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+}
+#discord-course  ul{
+    list-style: none;
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+#discord-course i{
+    color: #FFD300;
+    font-size: 13px;
+    padding-right: 10px;
+}
+#discord-course ul li {
+
+    font-size: 14px;
+    padding-top: 10px;
+ 
+}
+/*discord-course end */
+
+/* pricing-plan start */
+
+#pricing-plan{
+    padding: 60px 0;
+    background-color:#19223F;
+}
+#pricing-plan h4{
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+#pricing-plan .table-bordered thead td, 
+#pricing-plan .table-bordered thead th{
+border:1px solid #363F5C;
+
+font-size: 16px;
+}
+#pricing-plan .table-bordered tbody td, 
+#pricing-plan .table-bordered tbody th{
+border:1px solid #363F5C;
+
+font-size: 14px;
+}
+#pricing-plan .table-bordered tbody th{
+   
+    font-size: 16px;
+    }
+    #pricing-plan .table-bordered
+    {background:#1E2B4B}
+#pricing-plan .table-bordered ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+}
+#pricing-plan .table-bordered tbody td ul li{
+    padding-top: 10px;
+}
+#pricing-plan .table-bordered tbody td ul li i{
+    color: #FFD300;
+    font-size: 13px;
+    padding-right: 10px;
+}
+#pricing-plan .table-bordered tbody td ul li:last-child{
+    padding-bottom: 0px;
+}
+#pricing-plan .table-bordered tbody td span{
+    padding-right: 30px;
+}
+/* pricing-plan end */
+
+/* user-testimonial start */
+
+#user-testimonial{
+    padding: 60px 0 70px 0;
+    background-color:#1C2745;
+}
+
+#user-testimonial h4{
+    /* font-size: 24px; */
+    font-weight: 800;
+    margin-bottom: 25px;
+
+}
+#user-testimonial p{
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+}
+.user-card{
+    background: #19223F;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    border: transparent;
+    
+}
+.card-img-top{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 30px;
+    z-index: 1;  
+}
+.blockquote-footer{
+    font-size: 12px;
+}
+.blockquote{
+    margin-bottom: 0;
+}
+#user-testimonial .carousel-indicators{
+    bottom: -60px;
+}
+#user-testimonial .carousel-indicators li{
+    height: 9px;
+    width: 35px;
+    border-radius: 10px;
+    background-color:#FFD300;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+   border-bottom-left-radius: 15%;
+   border-bottom-right-radius: 15%;
+}
+
+#user-testimonial .carousel-indicators li.active{
+ border-radius: 100%;
+ width: 10px;
+ height: 9px;
+}
+/* user-testimonial end */
+/* trade-market-studio-info start */
+
+#trade-market-studio-info{
+    padding: 60px 0;
+    background-color:#FFD300;
+}
+#trade-market-studio-info h4{
+    /* font-size: 24px; */
+    font-weight: 800;
+    color: #152036;
+    margin-bottom: 25px;
+
+}
+#trade-market-studio-info p{ 
+    color: #152036;
+line-height: 24px;
+font-size: 14px;
+margin: 0;
+font-weight: 600;
+}
+#trade-market-studio-info .btn{ 
+   
+font-weight: 600;
+border-width: 2px;
+}
+/* trade-market-studio-info end */
+
+/* footer top start */
+#footer-top{
+    padding: 60px 0;
+    background-color:#171F36;
+    
+}
+#footer-top img{
+    height: 50px;
+    margin-bottom: 25px;
+}
+#footer-top p{
+    margin: 0;
+    padding: 10px 0 0;
+    font-size: 14px;
+}
+#footer-top ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#footer-top ul li a{
+    display: block;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 10px 0 0;
+    /* color:#969cc1; */
+}
+/* footer top end */
+
+/* footer bottom start */
+#footer-bottom{
+
+    text-align: center;
+    padding: 15px;
+    background-color:#19223F;
+}
+#footer-bottom p{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 200;
+ }
+/* footer bottom end */
