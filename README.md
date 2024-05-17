@@ -24,11 +24,11 @@ Visit our live website to explore more about our courses and offerings: [VSAM Ac
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/aishwaryasri15/VSAM-Academy.git
+   git clone https://github.com/aishwaryasri15/Aishwaryasri15.github.io.git
    ```
 2. **Navigate to the Project Directory**:
    ```bash
-   cd VSAM-Academy
+   cd Aishwaryasri15.github.io
    ```
 3. **Open the Index File**:
    Open `index.html` in your preferred web browser to view the website locally.
