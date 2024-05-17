@@ -81,6 +81,7 @@ padding: 15px 0;
 #demotraining{
     padding: 60px 0;
     background-color:#16203B;
+    margin-bottom: 0;
 }
 #demotraining h4{
     font-weight: 800;
@@ -95,15 +96,15 @@ padding: 15px 0;
 
 
 /* launching-soon start */
-#launching-soon{
+/* #launching-soon{ */
     /* padding: 60px 0; */
-    background-image: url("ails.png");
+    /* background-image: url("ails.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color:#2B3151;
-    height: 300px;
-}
+    height: 300px; */
+/* } */
 /* #launching-soon h4{
     font-weight: 800;
     margin-bottom: 25px;
@@ -119,15 +120,16 @@ padding: 15px 0;
 
 
 /* trade-market-studio-course start */
-#trade-market-studio-course{
+#studio-course{
     padding: 60px 0;
     background-color:#19223F;
+    margin-top:auto;
 }
-#trade-market-studio-course h4{
+#studio-course h4{
     font-weight: 800;
     margin-bottom: 25px;
 }
-#trade-market-studio-course p{
+#studio-course p{
     font-size: 14px;
     line-height: 24px;
     margin: 0;
@@ -140,17 +142,17 @@ padding: 15px 0;
     height: 300px;
     margin-top: 25px;
 }
-#trade-market-studio-course   ul{
+#studio-course   ul{
     list-style: none;
     margin: 0;
     padding: 60px 0 0 0;
 }
-#trade-market-studio-course  i{
+#studio-course  i{
     color: #FFD300;
     font-size: 13px;
     padding-right: 10px;
 }
-#trade-market-studio-course  ul li {
+#studio-course  ul li {
 
     font-size: 14px;
     padding-top: 10px;
@@ -299,13 +301,13 @@ font-size: 14px;
  height: 9px;
 }
 /* user-testimonial end */
-/* trade-market-studio-info start */
+/* vsam academy-info start */
 
 #trade-market-studio-info{
     padding: 60px 0;
     background-color:#FFD300;
 }
-#trade-market-studio-info h4{
+#trade-market-studio-info h2{
     /* font-size: 24px; */
     font-weight: 800;
     color: #152036;
@@ -324,7 +326,7 @@ font-weight: 600;
 font-weight: 600;
 border-width: 2px;
 }
-/* trade-market-studio-info end */
+/* vsam academy-info end */
 
 /* footer top start */
 #footer-top{
@@ -368,3 +370,146 @@ border-width: 2px;
     font-weight: 200;
  }
 /* footer bottom end */
+
+
+/*------------------------------------*\
+	Contact Page
+\*------------------------------------*/
+
+
+/* -- Contact Form -- */
+#contact{
+    padding: 60px 0;
+    background-color:#1E2B4B;
+}
+
+.contact-form:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.contact-form .input {
+    margin-bottom: 20px;
+}
+
+.contact-form textarea.input {
+    height: 200px;
+}
+
+
+/* -- Contact Information -- */
+
+.contact-details li {
+    margin-bottom: 20px;
+}
+
+.contact-details li i {
+    color:#FFD300;
+    margin-right: 15px;
+    border: 1px solid #EBEBEB;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+/* -- Contact Map -- */
+
+#contact-map {
+    height: 260px;
+    border-radius: 4px;
+}
+
+
+/* input text */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="url"],
+input[type="tel"],
+textarea {
+    height: 40px;
+    width: 100%;
+    border: 1px solid #EBEBEB;
+    border-radius: 4px;
+    background: transparent;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-transition: 0.2s border-color;
+    transition: 0.2s border-color;
+}
+
+textarea {
+    padding: 10px 15px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+input[type="url"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    border-color: #FFD300;
+}
+
+
+/* button */
+
+.main-button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #FFD300;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    color: #FFF;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+.main-button:hover,
+.main-button:focus {
+    background-color: #fff;
+    border: 2px solid #FFD300;
+    color: #FFD300;
+}
+
+.main-button.icon-button:hover,
+.main-button.icon-button:focus {
+    padding-right: 45px;
+}
+
+.main-button.icon-button:after {
+    content: "\f178";
+    font-family: FontAwesome;
+    position: absolute;
+    width: 30px;
+    right: 15px;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+.main-button.icon-button:hover:after,
+.main-button.icon-button:focus:after {
+    opacity: 1;
+}
+
+
+h4 {
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color:#fff;
+}
+
+
